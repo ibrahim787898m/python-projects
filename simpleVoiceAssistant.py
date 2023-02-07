@@ -27,12 +27,16 @@ while True:
 
 # here is the function for qna
     if user_input_question == greating01:
+        print(greating01reply)
         friend.say(greating01reply)
     elif user_input_question == question01:
+        print(question01reply)
         friend.say(question01reply)
     elif user_input_question == ending01:
+        print(ending01reply)
         friend.say(ending01reply)
     else:
+        print(invalid_question_answer)
         friend.say(invalid_question_answer)
 
 # here i am returning variable friend
